@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMK Muhammadiyah Pakem</title>
+    <meta name="description" content="Website profil SMK Muhammadiyah Pakem — Sekolah Pusat Keunggulan, Pesantren Vokasi.">
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header id="atas">
+        <span class="bola b1"></span><span class="bola b2"></span>
+        <div class="hero-isi">
+            <img src="images/logo.png" alt="Logo SMK Muhammadiyah Pakem" class="logo">
+            <span class="lencana">Sekolah Pusat Keunggulan</span>
+            <h1>SMK Muhammadiyah <em>Pakem</em></h1>
+            <p>Sekolah Unggul, Kreatif dan Berkemajuan</p>
+            <div class="hero-aksi">
+                <a href="#profil" class="tombol">Kenali Sekolah Kami</a>
+                <a href="#jurusan" class="tombol garis">Lihat Program Keahlian</a>
+            </div>
+        </div>
+        <a href="#beranda" class="gulir" aria-label="Gulir ke bawah">&#8964;</a>
+    </header>
+
+    <!-- ===== NAVBAR (6 menu) ===== -->
+    <nav>
+        <a href="#atas" class="merek"><img src="images/logo.png" alt=""><span>SMK Muh Pakem</span></a>
+        <button class="menu-btn" aria-label="Buka menu" aria-expanded="false">&#9776;</button>
+        <div class="menu">
+            <a href="#beranda">Beranda</a>
+            <a href="#profil">Profil Sekolah</a>
+            <a href="#jurusan">Program Keahlian</a>
+            <a href="#berita">Berita</a>
+            <a href="#galeri">Galeri</a>
+            <a href="#kontak">Kontak</a>
+        </div>
+    </nav>
+
+    <!-- ===== BERANDA ===== -->
+    <section id="beranda" class="muncul">
+        <h2>Selamat Datang</h2>
+        <div class="beranda-grid">
+            <div>
+                <p>Selamat datang di website SMK Muhammadiyah Pakem. Kami adalah Sekolah Pusat
+                Keunggulan yang mengusung konsep Pesantren Vokasi: memadukan keterampilan
+                industri, teknologi, dan nilai-nilai Islam berkemajuan.
+                Mari belajar, berkarya dan meraih prestasi bersama kami.</p>
+                <div class="statistik">
+                    <div><b>6</b>Program Keahlian</div>
+                    <div><b>281</b>Siswa Kunjungan Industri 2026</div>
+                    <div><b>1</b>Sekolah Pusat Keunggulan</div>
+                </div>
+            </div>
+            <img src="images/gedung.png" alt="Gedung SMK Muhammadiyah Pakem">
+        </div>
+    </section>
+
+    <!-- ===== PROFIL SEKOLAH ===== -->
+    <section id="profil" class="muncul">
+        <h2>Profil Sekolah</h2>
+        <div class="profil-grid">
+            <img loading="lazy" src="images/kepala-sekolah.png" alt="Kepala Sekolah">
+            <div>
+                <h3>Sambutan Kepala Sekolah</h3>
+                <blockquote>
+                    Kami berkomitmen menghadirkan pendidikan kejuruan yang bermutu: siswa
+                    terampil di bidangnya, kuat karakter, dan siap bersaing di dunia usaha
+                    dan dunia industri.
+                </blockquote>
+                <p><b>Identitas singkat:</b> SMK Muhammadiyah Pakem berlokasi di Jl. Pakem - Turi
+                No.23, Pakembinangun, Kec. Pakem, Kab. Sleman, Daerah Istimewa Yogyakarta.
+                Semboyan sekolah: <i>"Bahagia Bersama"</i>.</p>
+                <!-- TODO: tambahkan sejarah singkat, visi, dan misi sekolah di sini -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROGRAM KEAHLIAN ===== -->
+    <section id="jurusan" class="muncul">
+        <h2>Program Keahlian</h2>
+        <div class="kartu-grid">
+            <div class="kartu">
+                <img loading="lazy" src="images/tsm.png" alt="Praktik Teknik Sepeda Motor">
+                <div class="isi">
+                    <small>TSM</small>
+                    <h3>Otomotif Motor</h3>
+                    <p>Perawatan dan perbaikan mesin, sasis, serta kelistrikan sepeda motor.</p>
+                </div>
+            </div>
+            <div class="kartu">
+                <img loading="lazy" src="images/tkro.png" alt="Praktik Otomotif Mobil">
+                <div class="isi">
+                    <small>TKRO</small>
+                    <h3>Otomotif Mobil</h3>
+                    <p>Perawatan mesin, sasis, pemindah tenaga, dan kelistrikan mobil.</p>
+                </div>
+            </div>
+            <div class="kartu">
+                <img loading="lazy" src="images/rpl-telkom.png" alt="Kelas Rekayasa Perangkat Lunak">
+                <div class="isi">
+                    <small>RPL</small>
+                    <h3>Rekayasa Perangkat Lunak</h3>
+                    <p>Pembuatan website, aplikasi, game, dan cyber security.</p>
+                </div>
+            </div>
+            <div class="kartu">
+                <img loading="lazy" src="images/dpib.png" alt="Praktik pengukuran tanah jurusan Arsitek">
+                <div class="isi">
+                    <small>DPIB</small>
+                    <h3>Arsitek</h3>
+                    <p>Perencanaan, pelaksanaan pembangunan, dan perbaikan gedung.</p>
+                </div>
+            </div>
+            <div class="kartu">
+                <img loading="lazy" src="images/animasi.png" alt="Siswa membuat animasi di komputer">
+                <div class="isi">
+                    <small>ANIMASI</small>
+                    <h3>Animasi</h3>
+                    <p>Teknik pembuatan animasi 2D dan 3D, film, serta game.</p>
+                </div>
+            </div>
+            <div class="kartu">
+                <img loading="lazy" src="images/pbs.png" alt="Praktik layanan teller di laboratorium perbankan syariah">
+                <div class="isi">
+                    <small>PBS</small>
+                    <h3>Perbankan Syariah</h3>
+                    <p>Keuangan dan perbankan yang berlandaskan prinsip syariah Islam.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== BERITA ===== -->
+    <section id="berita" class="muncul">
+        <h2>Berita Sekolah</h2>
+        <div class="berita-item">
+            <time>12 November 2026</time>
+            <h3>Siswa XI TSM C Dibekali AI &amp; Digital Marketing</h3>
+            <p>Siswa belajar memasarkan jasa bengkel secara digital bersama mitra industri.</p>
+        </div>
+        <div class="berita-item">
+            <time>11 November 2026</time>
+            <h3>Evaluasi dan Monitoring Sekolah Berbasis Budaya</h3>
+            <p>Sekolah memperkuat pelestarian budaya Daerah Istimewa Yogyakarta.</p>
+        </div>
+        <div class="berita-item">
+            <time>27 Oktober 2026</time>
+            <h3>Kunjungan Industri Surabaya–Bali</h3>
+            <p>Siswa mengenal dunia kerja secara langsung pada 19–23 Oktober 2026.</p>
+        </div>
+    </section>
+
+    <!-- ===== GALERI (6 foto) ===== -->
+    <section id="galeri" class="muncul">
+        <h2>Galeri Kegiatan</h2>
+        <div class="galeri-grid">
+            <figure>
+                <img loading="lazy" src="images/siswa-bersama.png" alt="Kebersamaan siswa">
+                <figcaption>Kebersamaan siswa</figcaption>
+            </figure>
+            <figure>
+                <img loading="lazy" src="images/kunjungan-industri.png" alt="Kunjungan industri">
+                <figcaption>Kunjungan Industri Surabaya–Bali</figcaption>
+            </figure>
+            <figure>
+                <img loading="lazy" src="images/robothon.png" alt="International Robothon 2025">
+                <figcaption>Lomba International Robothon 2025</figcaption>
+            </figure>
+            <figure>
+                <img loading="lazy" src="images/penghargaan.png" alt="Kegiatan bersama mitra industri">
+                <figcaption>Kegiatan bersama mitra industri</figcaption>
+            </figure>
+            <figure>
+                <img loading="lazy" src="images/tkro.png" alt="Praktik otomotif">
+                <figcaption>Praktik otomotif mobil</figcaption>
+            </figure>
+            <figure>
+                <img loading="lazy" src="images/gerbang.png" alt="Gerbang sekolah">
+                <figcaption>Gerbang sekolah</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <!-- ===== KONTAK ===== -->
+    <section id="kontak" class="muncul">
+        <h2>Kontak Sekolah</h2>
+        <div class="kontak-grid">
+            <div>
+                <p>📍 <b>Alamat:</b> Jl. Pakem - Turi No.23, Pakembinangun, Kec. Pakem,
+                Kab. Sleman, Yogyakarta</p>
+                <p>📧 <b>Email:</b> ................................</p>
+                <p>📞 <b>Telepon:</b> 085865611145</p>
+                <p>📱 <b>Instagram / TikTok:</b> @smkmuhpakem</p>
+            </div>
+            <iframe loading="lazy" title="Peta SMK Muhammadiyah Pakem"
+                src="https://maps.google.com/maps?q=SMK%20Muhammadiyah%20Pakem&t=m&z=15&output=embed"></iframe>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <img src="images/logo.png" alt="Logo" class="logo-foot">
+        <p>&copy; 2026 SMK Muhammadiyah Pakem — "Bahagia Bersama"</p>
+        <small>Proyek latihan HTML &amp; CSS — bukan website resmi sekolah (smkmuhpakem.sch.id)</small>
+    </footer>
+
+    <a href="#atas" class="ke-atas" aria-label="Kembali ke atas">&uarr;</a>
+
+    <script>
+        // menu HP
+        const btn = document.querySelector('.menu-btn');
+        const menu = document.querySelector('.menu');
+        btn.addEventListener('click', () => {
+            const buka = menu.classList.toggle('buka');
+            btn.setAttribute('aria-expanded', buka);
+        });
+        menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => menu.classList.remove('buka')));
+
+        // animasi muncul saat di-scroll + tombol ke atas + menu aktif
+        const io = new IntersectionObserver(es => es.forEach(e => {
+            if (e.isIntersecting) { e.target.classList.add('tampil'); io.unobserve(e.target); }
+        }), { threshold: 0.1 });
+        document.querySelectorAll('.muncul').forEach(el => io.observe(el));
+
+        const ke = document.querySelector('.ke-atas');
+        const links = [...menu.querySelectorAll('a')];
+        const secs = links.map(a => document.querySelector(a.getAttribute('href')));
+        addEventListener('scroll', () => {
+            ke.classList.toggle('lihat', scrollY > 500);
+            let aktif = -1;
+            secs.forEach((s, i) => { if (s.getBoundingClientRect().top < 140) aktif = i; });
+            links.forEach((a, i) => a.classList.toggle('aktif', i === aktif));
+        }, { passive: true });
+    </script>
+
+</body>
+</html>
